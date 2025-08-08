@@ -1,6 +1,10 @@
 void main(){
 print(isvalid("()"));
-print(isvalid(""))
+print(isvalid("()[]{}"));
+print(isvalid("(]"));
+print(isvalid("([])"));
+print(isvalid("([)]"));
+
 }
 bool isvalid(String s){
   final Map<String,String> parenthieses={
