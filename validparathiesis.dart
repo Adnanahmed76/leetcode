@@ -1,9 +1,11 @@
 void main(){
+print("valid parenthieses is");
 print(isvalid("()"));
 print(isvalid("()[]{}"));
 print(isvalid("(]"));
 print(isvalid("([])"));
 print(isvalid("([)]"));
+
 
 }
 bool isvalid(String s){
@@ -11,6 +13,7 @@ bool isvalid(String s){
     ')':'(',
      '}':'{',
      ']':'['
+
   };
   final List<String> stack=[];
   for(String char in s.split('')){
