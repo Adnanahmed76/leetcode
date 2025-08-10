@@ -2,7 +2,7 @@ void main(){
 print("valid parenthieses is");
 print(isvalid("()"));
 print(isvalid("()[]{}"));
-print(isvalid("(]"));
+
 print(isvalid("([])"));
 print(isvalid("([)]"));
 
