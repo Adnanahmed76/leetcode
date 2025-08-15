@@ -11,14 +11,15 @@ void main(){
 class Solution{
   int removeDuplicated(List<int> nums){
   if(nums.isEmpty) return 0;
-  int k=1;//accesing index
-  for(int i=1;i<nums.length;i++){
-    if(nums[i]!=nums[i-1])
-    {
-      nums[k]=nums[i];
-      k++;
-    }
+  int rd=0;//accesing index
+  for(int i=1;i<numss;i++){
+   if(nums[rd]!=nums[i]){
+    rd++;
+    nums[rd]=nums[i];
+   }
+
   }
-  return k;
+  return rd +1;
+
   }
 }
