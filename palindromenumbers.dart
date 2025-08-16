@@ -8,14 +8,14 @@ print(result);
 
 class Solution{
   bool palindrome(int x){
-    int reserved=0;
+    int reverse=0;
     int dup=x;
     while(x>0){
       int lastdigit=x%10;
-      reserved=reserved*10+lastdigit;
+      reverse=reverse*10+lastdigit;
       x=x~/10;
     }
-    if(dup==reserved){
+    if(dup==reverse){
       return true;
     }
     else{
