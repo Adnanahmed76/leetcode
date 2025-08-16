@@ -46,9 +46,9 @@ Each folder contains:
 ---
 
 ## 🔗 Connect with Me
-- **GitHub:** [Your GitHub Link](https://github.com/yourusername)
-- **LinkedIn:** [Your LinkedIn Link](https://linkedin.com/in/yourprofile)
-- **LeetCode:** [Your LeetCode Link](https://leetcode.com/yourusername)
+- **GitHub:** adnanahmed76
+- **LinkedIn:**https://www.linkedin.com/in/adnan-ahmed-86b35b260/
+- **LeetCode:** https://leetcode.com/u/adnanahmed02/
 
 ---
 
