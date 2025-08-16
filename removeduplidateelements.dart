@@ -12,7 +12,7 @@ class Solution{
   int removeDuplicated(List<int> nums){
   if(nums.isEmpty) return 0;
   int rd=0;//accesing index
-  for(int i=1;i<numss;i++){
+  for(int i=1;i<nums.length;i++){
    if(nums[rd]!=nums[i]){
     rd++;
     nums[rd]=nums[i];
